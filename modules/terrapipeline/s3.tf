@@ -1,6 +1,6 @@
 
 data "template_file" "s3_policy" {
-  template = file("s3_policy.json")
+   template = file ("${path.module}/s3_policy.json")
   vars = {
     bucket_name = var.static_web_bucket_name
   }
