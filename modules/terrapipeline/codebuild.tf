@@ -114,5 +114,3 @@ resource "aws_codebuild_project" "static_web_build3" {
     type      = "GITHUB"
   }
 }
-
-
